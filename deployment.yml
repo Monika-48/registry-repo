@@ -13,9 +13,7 @@ spec:
         app: kubepro
     spec:
       containers:
-        - name: kubepro
-          image: monikadurga/web234
-          ports:
-            - containerPort: 80
-         
- 
+      - name: kubepro
+        image: monikadurga/web234:latest
+        ports:
+        - containerPort: 80
